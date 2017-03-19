@@ -1,0 +1,36 @@
+$spriteWidth: 1280;
+$spriteHeight: 720;
+$sprite: url('/sprite.jpg');
+
+$ratio: $spriteHeight/$spriteWidth*100 + 0%;
+
+.sprite{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+
+	&:before {
+		content: "";
+		display: block;
+		padding-top: $ratio;  
+	}
+
+	.sprite--container{
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: absolute;
+
+		background: $sprite no-repeat 0 0%;
+		background-size: 100%;
+		// animation: sprite 3.5s steps(15) infinite;
+	}
+
+	@keyframes sprite {
+		from { background-position: 0 0%; }
+		to { background-position: 0 100%; }
+	}
+
+}
+
