@@ -50,13 +50,16 @@ module.exports = {
             },{
                 test: /\.scss$/,
                 loader: "style-loader!css-loader!sass-loader" // creates style nodes from JS strings
+            },{
+                test: /\.(png|jpg)$/,
+                loader: 'url-loader'
             },
         ],
     },
     debug: true,
     output: {
         path: path.resolve(__dirname, 'build/assets'),
-        publicPath: 'assets',
+        publicPath: '/build/',
         filename: 'main.js'
     }
 };
