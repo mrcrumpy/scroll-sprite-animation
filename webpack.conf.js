@@ -55,7 +55,7 @@ module.exports = {
     },
     debug: true,
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'build/assets'),
         publicPath: 'assets',
         filename: 'main.js'
     }
