@@ -5,7 +5,7 @@ The animation gets synchronized with the scroll position. Giving the possibility
 
 The result can be seen here: https://github.com/mrcrumpy/scroll-sprite-animation
 
-##Why
+## Why
 In a previous project I was requested to develop a fullscreen background video which plays forward while scrolling down and backward while scrolling up again.
 I came up with modifying the video controls via javascript. But this was an unsufficient solution as embeding a video automatically shows the videocontrol and disables autoplay on mobile devices.
 So using sprites is an approach to reach the same outcome not only on desktop browsers but also on mobile devices.
