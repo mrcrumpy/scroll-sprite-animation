@@ -30,7 +30,7 @@
     "postcss": "^5.2.6",
     "postcss-cli": "^2.6.0",
     "postcss-cssnext": "^2.9.0",
-    "postcss-loader": "^1.2.0",
+    "postcss-loader": "^3.0.0",
     "raw-loader": "0.5.1",
     "sass-loader": "^6.0.3",
     "style-loader": "^0.13.1",
